@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description" content="Arbhie Menor portfolio showcasing IT support experience, certifications, technical skills, and professional background.">
+    <meta property="og:title" content="Arbhie Menor | Portfolio">
+    <meta property="og:description" content="IT Support Professional portfolio with certifications, experience, and contact information.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rbeeportfolio.onrender.com/">  
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <title>@yield('title', 'Portfolio')</title>
