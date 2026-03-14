@@ -15,7 +15,7 @@
     <title>@yield('title', 'Portfolio')</title>
     <style>
         :root {
-            --black: #0b0b0b;
+            --black: #b76d6d;
             --charcoal: #161616;
             --soft-black: #222222;
             --white: #ffffff;
@@ -526,15 +526,27 @@
                 font-size: 0.74rem;
             }
         }
+    .logo-avatar{
+            width:46px;
+            height:46px;
+            border-radius:50%;
+            object-fit:cover;
+            box-shadow:0 6px 16px rgba(0,0,0,0.15);
+            transition:0.25s;
+            }
+
+            .logo-avatar:hover{
+            transform:scale(1.05);
+         }
+
     </style>
 </head>
 <body>
     <div class="page-shell">
         <nav class="navbar">
             <a href="{{ route('home') }}" class="logo">
-                <span class="logo-badge">A</span>
-                <span>Arbhie</span>
-            </a>
+            <img src="{{ asset('images/profile.png') }}" class="logo-avatar">
+        </a>
 
             <div class="nav-links">
                 <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">HOME</a>

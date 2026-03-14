@@ -367,6 +367,9 @@
                 <a href="{{ route('certificates') }}" class="home-btn home-btn-primary">View Certificates</a>
                 <a href="{{ route('about') }}" class="home-btn home-btn-secondary">About Me</a>
                 <a href="{{ route('contacts') }}" class="home-btn home-btn-secondary">Contact Me</a>
+                <a href="{{ asset('files/Arbhie-Menor-Resume.pdf') }}" class="home-btn home-btn-secondary" download>
+                    <i class="fa-solid fa-download" style="margin-right:8px;"></i> Download Resume
+                </a>
             </div>
 
             <div class="home-note">
